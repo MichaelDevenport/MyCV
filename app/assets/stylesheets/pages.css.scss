@@ -1,3 +1,22 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  color: white;
+  /* Full Page Background Receipe */
+  background:url(http://media.giphy.com/media/XXYkaKVk1Luda/giphy.gif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  max-width: 610px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(63,63,63,0.5);
+  padding: 30px;
+  border-radius: 8px;
+}
