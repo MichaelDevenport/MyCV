@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'devise', '~> 3.4.1'
+gem 'mail_form'
+gem 'simple_form'
 
 group :development, :test do
 	gem 'sqlite3'
