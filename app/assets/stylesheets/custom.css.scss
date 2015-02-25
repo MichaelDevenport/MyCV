@@ -6,26 +6,47 @@
 background-color: #f2dede;
 border-color: #eed3d7;
 color: #b94a48;
-text-align: left;
+text-align: center;
 }
 
 .alert-alert {
 background-color: #f2dede;
 border-color: #eed3d7;
 color: #b94a48;
-text-align: left;
+text-align: center;
 }
 
 .alert-success {
 background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
-text-align: left;
+text-align: center;
 }
 
 .alert-notice {
 background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
-text-align: left;
+text-align: center;
+}
+
+.form-horizontal .form-group {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.panel-default {
+	margin: 90px;
+}
+
+.panel-heading {
+	text-align: center;
+}
+
+.panel-body {
+	color: #4D4D4D;
+}
+
+.panel-footer {
+	color: #4D4D4D;
 }

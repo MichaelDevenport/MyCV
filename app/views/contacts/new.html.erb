@@ -1,16 +1,36 @@
-<div align="center">
-  <h3>Send A message to me</h3>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Send me a message</h3>
+  </div>
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-    </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
-    </div>
-  <% end %>
+  <div class="panel-body">
+    <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+
+      <div class="form-group">
+        <%= f.label :name, :required => true %><i id="form-contact"> - Type your business name in this field</i>
+        <%= f.text_field :name, autofocus: true, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :email, :required => true %><i> - Type a current email here</i>
+        <%= f.email_field :email, autofocus: true, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :message, :as => :text, :required => true %><i> - Type your message here</i>
+        <%= f.text_area :message, autofocus: true, class: "form-control" %>
+      </div>
+
+      <div class= "hidden">
+        <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.submit "Send message", class: "btn btn-primary" %>
+      </div>
+    <% end %>
+  </div>
+  <div class="panel-footer">
+    <h4>Fill in the above fields and i will contact you soon, thank you.</h4>
+  </div> 
 </div>
