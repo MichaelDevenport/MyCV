@@ -77,9 +77,9 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #For mailer setup
-  config.action_mailer.default_url_options = { :host => 'yoursite.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'protected-taiga-2308.herokuapp.com' }
   #added this code for heroku
-  Rails.application.routes.default_url_options[:host] = 'yoursite.herokuapp.com'
+  Rails.application.routes.default_url_options[:host] = 'protected-taiga-2308.herokuapp.com'
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
