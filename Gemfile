@@ -12,6 +12,7 @@ gem 'bootstrap-sass', '~> 3.3.3'
 gem 'devise', '~> 3.4.1'
 gem 'mail_form'
 gem 'simple_form'
+gem "animate-rails"
 
 group :development, :test do
 	gem 'sqlite3'
