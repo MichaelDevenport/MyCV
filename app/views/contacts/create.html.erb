@@ -1,8 +1,24 @@
-<div>
-  <% flash.each do |key, value| %>
-    <div class="alert">
-      <a href="/" data-dismiss="alert">×</a>
-        <%= value %>
-    </div>
-  <% end %>
+<div id="primary-content">
+	<div class="container-pages">
+
+		<% flash.each do |key, value| %>
+    	<div class="alert">
+      	<a href="/" data-dismiss="alert">×</a>
+        	<%= value %>
+    	</div>
+  	<% end %>
+
+		<hr class="featurette-divider">
+			<div class="container-image-home">
+				<div id="bounce-content">
+					<%= image_tag("ash1.jpg", :size => "310x270" ) %>
+				</div>
+			</div>
+		<hr class="featurette-divider">
+		<h3 class="title-name">Ashleigh Wilson.</h3>
+		<hr class="featurette-divider">
+		<p class="developer">This site has been created by Michael Devenport founder & CEO of WEBrip Developments</p>
+		<a href="https://twitter.com/WEBrip" target="_blank">
+   		<%= image_tag("twitter.png", alt: "twitter") %> 
+	</div>
 </div>
