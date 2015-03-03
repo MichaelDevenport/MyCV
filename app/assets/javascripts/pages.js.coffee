@@ -13,3 +13,9 @@ document.addEventListener 'page:change', ->
 document.addEventListener 'page:fetch', ->
         document.getElementById('bounce-content').className += 'animated bounceOutDown'
 
+document.addEventListener 'page:change', ->
+        document.getElementById('bounce-right').className += 'animated bounceInRight'
+
+document.addEventListener 'page:fetch', ->
+        document.getElementById('bounce-right').className += 'animated bounceOutRight'
+

@@ -22,11 +22,12 @@ body {
   margin-right: auto;
   background: rgba(63,63,63,0.5);
   padding: 30px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .title-name {
   color: #FF99FF;
+  font-size: 4.7rem;
   font-family: 'Kaushan Script', cursive;
   margin-bottom: 27px;
 }
@@ -40,7 +41,7 @@ body {
   margin-right: auto;
   background: rgba(63,63,63,0.5);
   padding: 35px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .container-pages-side {
@@ -85,19 +86,24 @@ ul {
 .alert {
   margin: 30px;
   margin-right: 20px;
+  font-size: 2.2rem
 }
 
 .beta-p {
   font-size: 1.5rem;
 }
 
-.alert {
-  font-size: 2.2rem
-}
-
 .developer {
   color: #0C0E1B;
   margin-top: 48px;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.img-responsive {
+  height: 300px;
+}
+
+label {
+  display: none;
 }
 

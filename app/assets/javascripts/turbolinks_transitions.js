@@ -11,3 +11,11 @@ document.addEventListener('page:change', function() {
 document.addEventListener('page:fetch', function() {
         document.getElementById('bounce-content').className += 'animated bounceOutDown';
 });
+
+document.addEventListener('page:change', function() {
+        document.getElementById('bounce-right').className += 'animated bounceInRight';
+});
+document.addEventListener('page:fetch', function() {
+        document.getElementById('bounce-right').className += 'animated bounceOutRight';
+});
+
