@@ -44,3 +44,15 @@ document.addEventListener 'page:change', ->
 
 document.addEventListener 'page:fetch', ->
         document.getElementById('zoom-content').className += 'animated zoomOut'
+
+document.addEventListener 'page:change', ->
+        document.getElementById('zoom-down').className += 'animated zoomInDown'
+
+document.addEventListener 'page:fetch', ->
+        document.getElementById('zoom-down').className += 'animated zoomOutDown'
+
+document.addEventListener 'page:change', ->
+        document.getElementById('lightspeed').className += 'animated lightSpeedIn'
+
+document.addEventListener 'page:fetch', ->
+        document.getElementById('lightspeed').className += 'animated lightSpeedOut'

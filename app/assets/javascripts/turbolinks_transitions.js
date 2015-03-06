@@ -46,3 +46,17 @@ document.addEventListener('page:change', function() {
 document.addEventListener('page:fetch', function() {
         document.getElementById('zoom-content').className += 'animated zoomOut';
 });
+
+document.addEventListener('page:change', function() {
+        document.getElementById('zoom-down').className += 'animated zoomInDown';
+});
+document.addEventListener('page:fetch', function() {
+        document.getElementById('zoom-down').className += 'animated zoomInDown';
+});
+
+document.addEventListener('page:change', function() {
+        document.getElementById('lightspeed').className += 'animated lightSpeedIn';
+});
+document.addEventListener('page:fetch', function() {
+        document.getElementById('lightspeed').className += 'animated lightSpeedOut';
+});

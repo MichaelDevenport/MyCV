@@ -1,13 +1,16 @@
 <div id="primary-content">
 	<div class="container-pages">
-
 		<% flash.each do |key, value| %>
     	<div class="alert">
-      	<a href="/" data-dismiss="alert">×</a>
-        	<%= value %>
+    		<div id="lightspeed">
+      		<a href="/" data-dismiss="alert">Back to home ?</a>
+      	</div>
+      	<div id="hinge-content">
+      		<%= value %>
+      	</div>	
     	</div>
-  		<% end %>
-
+  	<% end %>
+  	
 		<hr class="featurette-divider">
 			<div class="container-image-home">
 				<div id="bounce-right">
@@ -15,7 +18,7 @@
 				</div>
 			</div>
 		<hr class="featurette-divider">
-		<h3 class="title-name">Ashleigh Wilson.</h3>
+		<h3 class="title-name sign">Ashleigh Wilson.</h3>
 		<hr class="featurette-divider">
 		<p class="developer">This site has been created by Michael Devenport founder & CEO of WEBrip Developments</p>
 		<a href="https://twitter.com/WEBrip" target="_blank">
