@@ -60,3 +60,10 @@ document.addEventListener('page:change', function() {
 document.addEventListener('page:fetch', function() {
         document.getElementById('lightspeed').className += 'animated lightSpeedOut';
 });
+
+document.addEventListener('page:change', function() {
+        document.getElementById('fip-element').className += 'animated flip';
+});
+document.addEventListener('page:fetch', function() {
+        document.getElementById('flip-element').className += 'animated flip';
+});

@@ -56,3 +56,11 @@ document.addEventListener 'page:change', ->
 
 document.addEventListener 'page:fetch', ->
         document.getElementById('lightspeed').className += 'animated lightSpeedOut'
+
+document.addEventListener 'page:change', ->
+        document.getElementById('flip-element').className += 'animated flip'
+
+document.addEventListener 'page:fetch', ->
+        document.getElementById('flip-element').className += 'animated flip'
+
+
