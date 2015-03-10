@@ -55,6 +55,7 @@ body {
   text-align: center;
   max-width: 700px;
   margin-top: 110px;
+  margin-bottom: 110px;
   margin-left: auto;
   margin-right: auto;
   background: rgba(63,63,63,0.5);
@@ -161,6 +162,9 @@ label {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.soc2 {
+  padding-bottom: 12px;
+}
 
 .col {
   color: rgba(250,255,189,0.7);
@@ -172,6 +176,10 @@ label {
 
 .left {
   text-align: left;
+}
+
+.right {
+  padding-right: 223px;
 }
 
 .pink {
@@ -227,4 +235,8 @@ label {
 
 .animated.zoomIn {
   -webkit-animation-delay: 2s;  
+}
+
+#lightspeed2 {
+  -webkit-animation-delay: 4s;
 }

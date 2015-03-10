@@ -62,6 +62,13 @@ document.addEventListener('page:fetch', function() {
 });
 
 document.addEventListener('page:change', function() {
+        document.getElementById('lightspeed2').className += 'animated lightSpeedIn';
+});
+document.addEventListener('page:fetch', function() {
+        document.getElementById('lightspeed2').className += 'animated lightSpeedOut';
+});
+
+document.addEventListener('page:change', function() {
         document.getElementById('fip-element').className += 'animated flip';
 });
 document.addEventListener('page:fetch', function() {
