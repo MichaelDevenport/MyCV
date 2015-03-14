@@ -116,6 +116,39 @@ ul {
   display: inline-block;
 }
 
+@media (min-width: 1000px) {
+  .container-images-rgt {
+    background: rgba(255, 153, 255, 0.9);
+    padding: 4px;
+    border-radius: 2px;
+    display: inline-block;
+    float: right;
+  }
+}
+
+.container-images-rgt {
+  background: rgba(255, 153, 255, 0.9);
+  padding: 4px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1000px) {
+  .align-text {
+   margin-top: -245px; 
+  }
+}
+
+
+
+.e-text {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
 .form-horizontal .form-group {
   margin-left: 4px;
   margin-right: 4px;
@@ -225,6 +258,11 @@ label {
 
 .skills {
   margin-bottom: 60px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: 2px;
 }
 
 .adm {
