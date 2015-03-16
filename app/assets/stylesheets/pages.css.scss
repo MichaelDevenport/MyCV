@@ -129,6 +129,10 @@ ul {
     height: 255px;
     max-width: 190px;
   }
+
+  .adm {
+    margin-top: 40px;
+  }
 }
 
 
@@ -155,7 +159,6 @@ ul {
 }
 
 .e-text {
-  display: inline-block;
   text-align: left;
   vertical-align: middle;
 }
@@ -270,10 +273,6 @@ label {
 .row {
   margin-left: -15px;
   margin-right: 2px;
-}
-
-.adm {
-  margin-top: 120px;
 }
 
 .ref {
