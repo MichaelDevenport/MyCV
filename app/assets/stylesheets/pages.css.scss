@@ -127,11 +127,25 @@ ul {
 
   .img-responsive {
     height: 255px;
-    max-width: 190px;
+    width: 190px;
+  }
+
+  .img-responsive1 {
+    height: 255px;
+    width: 190px;
+  }
+
+  .img-responsive2 {
+    height: 240px;
+    width: 240px;
   }
 
   .adm {
     margin-top: 40px;
+  }
+
+  .pad {
+    margin-top: 77px;
   }
 }
 
@@ -146,7 +160,21 @@ ul {
 
   .img-responsive {
     height: 185px;
-    max-width: 247px;
+    width: 247px;
+  }
+
+  .img-responsive1 {
+    height: 300px;
+    width: 247px;
+  }
+
+  .img-responsive2 {
+    height: 220px;
+    width: 247px;
+  }
+
+  .top1 {
+    margin-top: 16px;
   }
 }
 
