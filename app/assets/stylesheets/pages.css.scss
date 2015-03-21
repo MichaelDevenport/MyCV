@@ -4,6 +4,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
 /* Box Model Hack */
 * {
   -moz-box-sizing: border-box; /* Firexfox */
@@ -114,6 +115,12 @@ ul {
   border-radius: 2px;
   padding: 4px;
   display: inline-block;
+}
+
+@media (min-width:1200px) {
+  .container {
+    width: 1142px;
+  }  
 }
 
 @media (min-width: 992px) {
