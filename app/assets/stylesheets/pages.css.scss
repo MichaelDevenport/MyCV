@@ -25,7 +25,7 @@ body {
   font-family: 'Francois One', sans-serif;
   color: white;
   /* Full Page Background Receipe */
-  background:url(http://fc04.deviantart.net/fs70/i/2012/322/2/2/webpage_background_by_phantasmicdream-d5lft9b.jpg);
+  background:url(http://wall4all.me/thumbs/general/-803426-480x320.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -36,6 +36,7 @@ body {
   text-align: center;
   max-width: 600px;
   margin-top: 110px;
+  margin-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
@@ -117,11 +118,6 @@ ul {
   display: inline-block;
 }
 
-@media (min-width:1200px) {
-  .container {
-    width: 1142px;
-  }  
-}
 
 @media (min-width: 992px) {
   .container-images-rgt {
