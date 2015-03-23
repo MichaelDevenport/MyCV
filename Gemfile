@@ -13,6 +13,7 @@ gem 'devise', '~> 3.4.1'
 gem 'mail_form'
 gem 'simple_form'
 gem "animate-rails"
+gem "social-buttons", git: "git://github.com/kristianmandrup/social-buttons.git"
 
 group :development, :test do
 	gem 'sqlite3'
