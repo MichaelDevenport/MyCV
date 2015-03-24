@@ -12,9 +12,11 @@
    box-sizing: border-box; /* IE */
 }
 
-.oor-social-buttons {
-  margin-left: 147px;
-  margin-top: 15px;
+.button-container {
+  background: rgba(255,255,255,0.9);
+  border-radius: 2px;
+  padding: 2px;
+  display: inline-block;
 }
 
 .twitter-tweet {
