@@ -19,9 +19,25 @@
   display: inline-block;
 }
 
-.twitter-tweet {
-  margin-left: 15px;
+.dropdown-menu {
+  background: rgba(32,32,32,0.7);
+  li a {
+  color: #FFFFFF;
+  } 
+  .divider {
+    background-color: #B81D1D;
+  }
 }
+
+.container-share {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#twitter-widget-0 {
+  width: 80px;
+}
+
 
 a {
   color: rgba(255,153,255,0.8)
@@ -47,7 +63,7 @@ body {
   text-align: center;
   max-width: 600px;
   margin-top: 110px;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
@@ -91,7 +107,7 @@ h4.title-name1 {
   text-align: center;
   max-width: 725px;
   margin-top: 110px;
-  margin-bottom: 110px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   background:url(http://www.pegaweb.com/tutorials/web-page-backgrounds/4a.jpg);

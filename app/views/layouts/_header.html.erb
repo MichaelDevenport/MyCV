@@ -37,17 +37,8 @@
                 <li><%= link_to "Referees / references", references_path %></li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-thumbs-up"></span> Like<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li class="like"><%= render_shareable :buttons=> [ 'facebook' ] %></li>
-                <li class="divider"></li>
-                <li class="like"><%= render_shareable :buttons=> [ 'twitter' ] %></li>
-                <li class="divider"></li> 
-                <li class="like"><%= render_shareable :buttons=> [ 'linkedin' ] %></li>
-                <li class="divider"></li> 
-                <li class="like"><%= render_shareable :buttons=> [ 'google_plus' ] %></li>  
-              </ul>
+            <li>
+              <span><%= render_shareable :buttons=> [ 'facebook' ] %></span>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
