@@ -11,7 +11,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand">Ashleigh's Résumé</a>
+          <div class="dropdown">
+            <a href="#" class="navbar-brand dropdown-toggle" data-toggle="dropdown">Ashleigh's Résumé <span class="glyphicon glyphicon-thumbs-up"></span></a>
+            <ul class="dropdown-menu">
+              <%= render_shareable :buttons=> [ 'facebook' ] %>
+              <li class="divider"></li>
+            </ul>
+          </div>
         </div>
         
         <div class="collapse navbar-collapse">
