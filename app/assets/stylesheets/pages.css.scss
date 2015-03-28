@@ -47,6 +47,15 @@ label {
   display: none;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;    
+}
+ 
+ /* if you want to hide the arrow */
+a.menu:after, .dropdown-toggle:after {
+  content: none;
+}
+
 .dropdown-menu {
   background: rgba(32,32,32,0.7);
   li a {
