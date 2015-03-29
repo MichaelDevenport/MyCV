@@ -4,6 +4,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
 /* Box Model Hack */
 * {
   -moz-box-sizing: border-box; /* Firexfox */
@@ -238,6 +239,10 @@ a.menu:after, .dropdown-toggle:after {
   color: #0C0E1B;
   margin-top: 48px;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.btn-info {
+  padding: 0px 0px;
 }
 
 .btn-default {
