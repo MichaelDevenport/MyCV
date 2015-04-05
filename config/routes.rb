@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get "interests" => "pages#interests"
   get "references" => "pages#references"
   get "contact" => "pages#contact"
+  get "mpd" => "pages#mpd"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

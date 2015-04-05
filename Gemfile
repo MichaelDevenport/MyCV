@@ -14,6 +14,7 @@ gem 'mail_form'
 gem 'simple_form'
 gem "animate-rails"
 gem 'shareable', '~> 1.1.4'
+gem 'font-awesome-sass', '~> 4.3.2.1'
 
 group :development, :test do
 	gem 'sqlite3'
